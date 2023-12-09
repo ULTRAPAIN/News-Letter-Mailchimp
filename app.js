@@ -48,7 +48,7 @@ app.post("/",function(req, res){
     const url="https://us14.api.mailchimp.com/3.0/lists/130585658a";
     const options={
         method:"POST",
-        auth:"Dashrath:3f3fd5076526da27e7d606748c544f86-us14"
+        auth:"mailchimp:23cc96ab58680dcd2f0f477d43ffd608-us14"
     };
      const request=https.request(url,options,function(response){
         if(response.statusCode===200){
