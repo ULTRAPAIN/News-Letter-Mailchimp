@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  display:flex;
+  justify-content: center;
+  min-width: 600px;
+  min-height: 700px;
+  padding: 1rem;
+}
+.yo{
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+
+}
+
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+}
+
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.mb-4{
+    border-radius: 50%;
+   margin-left: 140px;
+}
+
+.mb-3{
+  text-align: center;
+}
+
+.form-floating{
+  margin-bottom: 10px;
+}
+
+.btn-primary{
+  margin-top: 20px;
+}
+
+
+
+.failure{
+  color:red;
+  font-size: large;
+}
